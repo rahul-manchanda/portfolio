@@ -1,16 +1,33 @@
 
+
+
+
+
+
+
+.cover-page{
+  font-family:'Poppins'!important;
+  }
+  .cover-page{
+  font-family: Poppins !important;
+  }
+
+
 .f-w-500
 {
 font-weight: 500;
 }
+
 .f-w-600
 {
 font-weight: 600;
 }
+
 .f-w-700
 {
 font-weight: 700;
 }
+
 .t-center
 {
 text-align: center;
@@ -227,9 +244,14 @@ text-align: center;
       padding: 0;
       }
 
-
+      .head1a {
+        font-size: 3.5vw;
+        line-height: 1.2;
+        margin-bottom: 0;
+        }
+    
   .head1 {
-    font-size: 4vw;
+    font-size: 3vw;
     line-height: 1.2;
     margin-bottom: 0;
     }
@@ -295,9 +317,9 @@ text-align: center;
   .header1
   {
     position: relative;
-    max-width: 80%;
+    max-width: 75%;
     margin: 0 auto;
-    margin-top: 4vw;
+    margin-top: 0vw;
   }
 
   .header_content
@@ -306,7 +328,7 @@ text-align: center;
     top: 3vw;
     left: 50%;
     transform: translateX(-50%);
-    width: 85%;
+    width: 75%;
   }
 
 
@@ -319,7 +341,7 @@ text-align: center;
   .footer_content
   {
     position: absolute;
-    top: 16vw;
+    top: 10vw;
     left: 50%;
     transform: translateX(-50%);
     width: 50%;
